@@ -1,0 +1,11 @@
+.nav-link{
+    color: $white;
+    font-family: $roboto;
+    font-weight: $font_regular;
+    &.activo{
+        color: $fuzzy_wuzzy !important;
+    }
+    &:hover{
+        color: $fuzzy_wuzzy;
+    }
+}

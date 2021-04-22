@@ -1,0 +1,10 @@
+.writter__thumbnail{
+    border-radius: 150px;
+    width: 140px;
+}
+
+@media (max-width:991px){
+    .writter__thumbnail{
+        width: 131px;
+    }
+}

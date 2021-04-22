@@ -1,0 +1,16 @@
+.footer{
+    background-color: $eerie_black;
+    padding: 5rem 2rem;
+}
+
+.footer__image{
+    margin:0 auto;
+    display: block;
+    width: 122px;
+}
+
+@media (max-width:991px){
+    .footer__image{
+        width: 81px;
+    }
+}

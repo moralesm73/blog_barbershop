@@ -1,0 +1,33 @@
+.paginacion{
+    padding: 3rem 1rem;
+}
+
+.pagination{margin: 0;}
+
+.paginacion__item{
+    &:first-child .paginacion__link{
+        border-radius: 20px 0 0 20px;
+    }
+    &:last-child .paginacion__link{
+        border-radius: 0 20px 20px 0;
+    }
+}
+
+.paginacion__link{
+    font-size: $medium;
+    color: $eerie_black;
+    background-color: $white;
+    &.activo{
+        background-color: $nickel !important;
+        color: $white !important;
+    }
+    &:hover{
+        color: $eerie_black;
+    }
+}
+
+@media (max-width:991px){
+    .paginacion__link{
+        font-size: $small;
+    }
+}

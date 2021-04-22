@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: $playfair_display;
+    font-weight: $font_black;
+}
+h1{
+    font-size: $xx-large;
+    font-style: $italic;
+}
+h4{
+    font-size: $x-large;
+    font-style: $italic;
+}
+p{
+    font-family: $roboto;
+    font-weight: $font_light;
+    font-size: $medium;
+    font-style: $normal;
+}
+
+@media (max-width:768px){
+    h1{font-size: $x-large;}
+}

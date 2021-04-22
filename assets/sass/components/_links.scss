@@ -1,0 +1,30 @@
+.content__body-primary{
+    color:$fuzzy_wuzzy;
+    &:hover{
+        color:$raisin_black;
+    }
+    &:active{
+        color:$platinum;
+    }
+    &:focus{
+        color:$platinum;
+    }
+}
+
+.writter__link{
+    font-size: $large;
+    display: block;
+}
+
+.writter__link-primary{
+    color:$fuzzy_wuzzy;
+    &:hover{
+        color:$raisin_black;
+    }
+    &:active{
+        color:$platinum;
+    }
+    &:focus{
+        color:$platinum;
+    }
+}

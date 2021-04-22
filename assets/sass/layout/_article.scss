@@ -1,0 +1,40 @@
+.article{
+    background-color: $white;
+}
+.content{
+    padding-top: 5rem;
+    border-bottom: 1px solid $light_gray;
+}
+.content__date{
+    p{
+        margin-bottom: 5rem;
+        font-family: $playfair_display;
+        font-weight: $font_regular;
+        color: $nickel;
+    }
+}
+.content__body{
+    p{
+        margin-bottom: 4rem;
+        line-height: 45px;
+    }
+}
+.content__actions{
+    margin-bottom: 5rem;
+}
+
+.writter{
+    padding: 4rem 0;
+}
+
+.writter__info{
+    padding-left: 1rem;
+}
+
+
+@media (max-width:991px){
+    .writter__info{text-align: center;padding-left: 0;}
+    .writter__avatar{
+        text-align: center;
+    }
+}

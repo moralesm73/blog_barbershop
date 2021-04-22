@@ -1,0 +1,35 @@
+.main__container{
+    height: 90vh;
+    background-image: url(../images/post-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.main__title{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: $white;
+    max-width: 640px;
+    height: 15rem;
+}
+
+.main__indicador{
+    position: absolute;
+    bottom: 5rem;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 50px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .main__title{max-width: 315px;width:90%;}
+}
